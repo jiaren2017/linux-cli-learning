@@ -31,5 +31,29 @@ bash.
 ---
 ---
 
+## 2 - Navigation
 
+- pwd – Print name of current working directory 
+- cd – Change directory
+- ls – List directory contents
+
+> Unix-like systems such as Linux always have a single file system tree, regardless of how 
+many drives or storage devices are attached to the computer. 
+
+> Where an **absolute pathname** starts from the root directory and leads to its destination, a 
+**relative pathname** starts from the working directory. 
+
+> The "." notation refers to the working directory and the ".." notation refers to the working 
+directory's parent directory
+
+> In general, if we do not specify a pathname to something, the working directory will be assumed. In almost all cases, we can omit the "./". It is implied. 
+
+### Important Facts About Filenames
+- Filenames that begin with a period character are hidden.
+- Filenames and commands in Linux, like Unix, are case sensitive. 
+- Linux has no concept of a “file extension” like some other operating systems. The contents and/or purpose of a file is determined by other means. 
+- limit the punctuation characters in the names of files you create to period, dash, and underscore. Most importantly, do not embed spaces in filenames. 
+
+---
+---
 
